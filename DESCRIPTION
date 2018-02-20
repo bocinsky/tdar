@@ -1,8 +1,9 @@
 Package: tdar
-Title: What the Package Does (one line, title case)
+Title: R Bindings to the Digital Archaeological Record (tDAR) API
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Kyle", "Bocinsky", email = "bocinsky@gmail.com", role = c("aut", "cre"))
+Description: This package allows programmatic access to 
+the Digital Archaeological Record, a service of Digital Antiquity.
 Depends: R (>= 3.4.3)
 License: MIT + file LICENSE
 Encoding: UTF-8
