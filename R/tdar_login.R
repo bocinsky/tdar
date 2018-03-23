@@ -1,7 +1,16 @@
+#' Title
+#'
+#' @param tdar_user
+#' @param tdar_password
+#'
+#' @return
+#' @export
+#'
+#' @examples
 tdar_login <- function(tdar_user,
-                              tdar_password){
+                       tdar_password){
   if(missing(tdar_user) || missing(tdar_password)){
-    if(Sys.getenv("tdar_un") == "" || Sys.getenv("tdar_pw" == "")){
+    if(Sys.getenv("tdar_un") == "" || Sys.getenv("tdar_pw") == ""){
       stop("
            This function requires a username and password from TDAR and access to the TDAR API.
            If you have a username and password, pass them in as environment vars using:

@@ -2,8 +2,7 @@ Package: tdar
 Title: R Bindings to the Digital Archaeological Record (tDAR) API
 Version: 0.0.0.9000
 Authors@R: person("Kyle", "Bocinsky", email = "bocinsky@gmail.com", role = c("aut", "cre"))
-Description: This package allows programmatic access to 
-the Digital Archaeological Record, a service of Digital Antiquity.
+Description: This package allows programmatic access to the Digital Archaeological Record, a service of Digital Antiquity.
 Depends: R (>= 3.4.3)
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -12,3 +11,12 @@ Suggests: testthat,
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+Imports: xml2,
+    igraph,
+    magrittr,
+    dplyr,
+    tibble,
+    purrr,
+    httr,
+    stringr
+RoxygenNote: 6.0.1
